@@ -65,9 +65,13 @@ body{
 .item a{
   display:block;
   padding:5px 0;
+  color:navy;
   text-decoration:none;
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+.item a:hover{
+  color:rgb(30, 30, 122);
 }
 .item::before,
 .item::after{
